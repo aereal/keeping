@@ -1,12 +1,9 @@
-require 'rack/request'
-require 'rack/response'
+require 'sinatra/base'
 
 module Keeping
-  class Web
-    def call(env)
-      request = Rack::Request.new(env)
-      response = Rack::Response.new
-      response.finish
+  class Web < Sinatra::Base
+    get '/' do
+      'ok'
     end
   end
 end
