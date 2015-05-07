@@ -10,4 +10,5 @@ end
 
 group :development do
   gem 'rake'
+  gem 'sinatra-contrib', require: nil
 end
