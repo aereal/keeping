@@ -6,6 +6,18 @@
 bundle install
 ```
 
+## Running server
+
+```
+bundle exec puma
+```
+
+or
+
+```
+foreman start
+```
+
 ## Running tests
 
 ```
